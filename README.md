@@ -22,4 +22,5 @@ once instance spin up is done verify the connectivity by using SSH
 After logging to VM check the docker version and docker container status by running below commands
 
 docker --version
+
 docker ps
