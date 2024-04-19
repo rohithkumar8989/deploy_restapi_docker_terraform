@@ -24,3 +24,8 @@ After logging to VM check the docker version and docker container status by runn
 docker --version
 
 docker ps
+
+##Configure network settings for external access:
+You need to configure Azure's Network Security Group (NSG) to allow traffic on port 3000. You can do this through Terraform or manually in the Azure portal.
+
+Once the NSG is configured, you can access the API using the public IP of the Azure VM on port 3000.
