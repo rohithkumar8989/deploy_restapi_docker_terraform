@@ -2,7 +2,7 @@
   "name": "health-staus-check",
   "version": "1.0.0",
   "description": "to check the health status",
-  "main": "index.js",
+  "main": "rest_api.js",
   "dependencies": {
     "express": "^4.17.1"
   }
